@@ -1,0 +1,84 @@
+<html>
+<head>
+<body>
+<title>Sign-In</title>
+<style>
+body {
+ background-size:100%100%;
+}
+h1 {
+text-align: center;
+}
+.button{
+ background-color:#4CAF50;
+
+}
+
+a:link, a:visited {
+  background-color: orange;
+ color: white;
+  border: 2px solid orange ;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover,a:active {
+  background-color:grey;
+  color:white ;
+}
+.content {
+  background-color: #ADD8E6;
+  padding: 100px;
+  height: 300px;
+  text-align: left;
+  width:500px;
+
+  background-position: center;
+
+}
+
+label {
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+      }
+
+</style>
+</head>
+</body>
+
+<body background="G:\Prasanth files\one credit\online.jpg"width="100">
+<h1 style="background-color:hsla(10, 200%, 64%, 0.5);">Sign-In</h1>
+<hr>
+<form action="/action_page.php">
+<br>
+<div class="content">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="G:\Prasanth files\one credit\shopcart.html" target="_blank">Home</a>
+ 
+<hr>
+ <label for="fname"><b>FIRST NAME:</label>
+  <input type="text" id="fname" name="Firstname" required><br><br>
+  <label for="lname">LAST NAME :</label>
+  <input type="text" id="lname" name="Lastname" "><br><br>
+  <label for="phone">MOBILE NUMBER:</label>
+  <input type="tel" id="phone" name="phone" placeholder="91 67845-32890" pattern="[0-9]{2}-[0-9]{5}-[0-9]{5}"required<br><br><br>
+
+  <label for="email">E-MAIL ID:</label>
+  <input type="email" id="email" name="email" placeholder="abc@gmail.com"><br><br>
+  <label for="datemax">BIRTHDAY:</label>
+  <input type="date" id="datemax" name="datemax" value="  "max="30-12-2004"><br><br>
+   <label for="pwd">PASSWORD:</label>
+   <input type="password" placeholder="Password" id="pwd" minlength="8"  required><br><br>
+   <label for="pwd">CONFIRM PASSWORD:</label>
+   <input type="password" placeholder="Confirm Password" id="confirm_password" required><br><br>
+   <br><br>
+
+  <button class="button">SUBMIT</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;     
+ <button class="button">CANCEL</button><hr><br><br><br>
+
+</form> 
+</div>
+</html>
