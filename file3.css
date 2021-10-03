@@ -1,0 +1,47 @@
+header{
+text-align:center;
+font-style: oblique;
+color:red;	
+background-color:hsl(0, 20%, 50%);
+border: 1px outset pink;
+}
+heading{
+text-align:center;
+font-style: oblique;
+font-size: 50px;
+color:PURPLE;	
+background-color:hsl(0, 20%, 50%);
+
+}
+footer{
+text-align:center;
+font-style: oblique;
+color:black;	
+background-color:hsl(0, 20%, 50%);
+border: 1px outset pink;
+}
+div.gallery {
+  margin: 100px;
+  border: 2px solid #ccc;
+  float: right;
+  width: 1220px;}
+div.gallery1 {
+  margin: 50px;
+  border: 2px solid #ccc;
+  float: right;
+  width: 320px;
+font-size:20px;
+}
+
+
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+  color:violet;
+font-style: oblique;
+}
+mark { 
+  background-color: orange;
+  color: purple;
+}
